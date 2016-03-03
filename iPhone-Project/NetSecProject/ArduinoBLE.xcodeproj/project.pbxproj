@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		291C7BB71648AE9100403B08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291C7BB61648AE9100403B08 /* UIKit.framework */; };
+		291C7BB91648AE9100403B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291C7BB81648AE9100403B08 /* Foundation.framework */; };
+		291C7BBB1648AE9100403B08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291C7BBA1648AE9100403B08 /* CoreGraphics.framework */; };
+		291C7BC11648AE9100403B08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 291C7BBF1648AE9100403B08 /* InfoPlist.strings */; };
+		291C7BC31648AE9100403B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 291C7BC21648AE9100403B08 /* main.m */; };
+		291C7BC71648AE9100403B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 291C7BC61648AE9100403B08 /* AppDelegate.m */; };
+		291C7BC91648AE9100403B08 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 291C7BC81648AE9100403B08 /* Default.png */; };
+		291C7BD01648AE9100403B08 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291C7BCE1648AE9100403B08 /* MainStoryboard.storyboard */; };
+		2932F6831813C4230049385E /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 2932F6811813C4230049385E /* BLE.m */; };
+		2950A9CA164A8459005C150E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2950A9C9164A8459005C150E /* TableViewController.m */; };
+		298C8463164A0F000020AD9A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 298C8462164A0F000020AD9A /* CoreBluetooth.framework */; };
+		A80869601BD117FA0083B629 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A808695E1BD117FA0083B629 /* libcrypto.a */; };
+		A80869611BD117FA0083B629 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A808695F1BD117FA0083B629 /* libssl.a */; };
+		A86DE1011C53988D00C22B26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86DE1001C53988D00C22B26 /* Images.xcassets */; };
+		A86DE1041C539BEB00C22B26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A86DE1021C539BEB00C22B26 /* Default-568h@2x.png */; };
+		A86DE1051C539BEB00C22B26 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A86DE1031C539BEB00C22B26 /* Default@2x.png */; };
+		A89BA9341C4FB67C00A9B8FA /* NSData+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = A89BA9331C4FB67C00A9B8FA /* NSData+Conversion.m */; };
+		A8DE81141C4F8204001968E4 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE81131C4F8204001968E4 /* NSData+AES.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		291C7BB21648AE9100403B08 /* ArduinoBLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoBLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		291C7BB61648AE9100403B08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		291C7BB81648AE9100403B08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		291C7BBA1648AE9100403B08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		291C7BBE1648AE9100403B08 /* ArduinoBLE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArduinoBLE-Info.plist"; sourceTree = "<group>"; };
+		291C7BC01648AE9100403B08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		291C7BC21648AE9100403B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		291C7BC41648AE9100403B08 /* ArduinoBLE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArduinoBLE-Prefix.pch"; sourceTree = "<group>"; };
+		291C7BC51648AE9100403B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		291C7BC61648AE9100403B08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		291C7BC81648AE9100403B08 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		291C7BCF1648AE9100403B08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2932F6801813C4230049385E /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLE.h; path = SimpleControls/BLE/BLE.h; sourceTree = SOURCE_ROOT; };
+		2932F6811813C4230049385E /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLE.m; path = SimpleControls/BLE/BLE.m; sourceTree = SOURCE_ROOT; };
+		2932F6821813C4230049385E /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLEDefines.h; path = SimpleControls/BLE/BLEDefines.h; sourceTree = SOURCE_ROOT; };
+		2950A9C8164A8459005C150E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2950A9C9164A8459005C150E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		298C8462164A0F000020AD9A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A808695E1BD117FA0083B629 /* libcrypto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = libcrypto.a; path = SimpleControls/lib/libcrypto.a; sourceTree = SOURCE_ROOT; };
+		A808695F1BD117FA0083B629 /* libssl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = libssl.a; path = SimpleControls/lib/libssl.a; sourceTree = SOURCE_ROOT; };
+		A83C43841C523C07003EB779 /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		A86DE1001C53988D00C22B26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ArduinoBLE/Images.xcassets; sourceTree = "<group>"; };
+		A86DE1021C539BEB00C22B26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A86DE1031C539BEB00C22B26 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A89BA9321C4FB65C00A9B8FA /* NSData+Conversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Conversion.h"; sourceTree = "<group>"; };
+		A89BA9331C4FB67C00A9B8FA /* NSData+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Conversion.m"; sourceTree = "<group>"; };
+		A8DE81121C4F8204001968E4 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		A8DE81131C4F8204001968E4 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291C7BAF1648AE9100403B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80869601BD117FA0083B629 /* libcrypto.a in Frameworks */,
+				A80869611BD117FA0083B629 /* libssl.a in Frameworks */,
+				298C8463164A0F000020AD9A /* CoreBluetooth.framework in Frameworks */,
+				291C7BB71648AE9100403B08 /* UIKit.framework in Frameworks */,
+				291C7BB91648AE9100403B08 /* Foundation.framework in Frameworks */,
+				291C7BBB1648AE9100403B08 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291C7BA71648AE9100403B08 = {
+			isa = PBXGroup;
+			children = (
+				A86DE1001C53988D00C22B26 /* Images.xcassets */,
+				291C7BBC1648AE9100403B08 /* SimpleControls */,
+				291C7BB51648AE9100403B08 /* Frameworks */,
+				291C7BB31648AE9100403B08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		291C7BB31648AE9100403B08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				291C7BB21648AE9100403B08 /* ArduinoBLE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		291C7BB51648AE9100403B08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A808695E1BD117FA0083B629 /* libcrypto.a */,
+				A808695F1BD117FA0083B629 /* libssl.a */,
+				29FD69E717BA35510015E258 /* BLE */,
+				298C8462164A0F000020AD9A /* CoreBluetooth.framework */,
+				291C7BB61648AE9100403B08 /* UIKit.framework */,
+				291C7BB81648AE9100403B08 /* Foundation.framework */,
+				291C7BBA1648AE9100403B08 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		291C7BBC1648AE9100403B08 /* SimpleControls */ = {
+			isa = PBXGroup;
+			children = (
+				A8DE81121C4F8204001968E4 /* NSData+AES.h */,
+				A8DE81131C4F8204001968E4 /* NSData+AES.m */,
+				A89BA9321C4FB65C00A9B8FA /* NSData+Conversion.h */,
+				A89BA9331C4FB67C00A9B8FA /* NSData+Conversion.m */,
+				A83C43841C523C07003EB779 /* functions.h */,
+				2950A9C8164A8459005C150E /* TableViewController.h */,
+				2950A9C9164A8459005C150E /* TableViewController.m */,
+				291C7BC51648AE9100403B08 /* AppDelegate.h */,
+				291C7BC61648AE9100403B08 /* AppDelegate.m */,
+				291C7BCE1648AE9100403B08 /* MainStoryboard.storyboard */,
+				291C7BBD1648AE9100403B08 /* Supporting Files */,
+			);
+			path = SimpleControls;
+			sourceTree = "<group>";
+		};
+		291C7BBD1648AE9100403B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				291C7BBE1648AE9100403B08 /* ArduinoBLE-Info.plist */,
+				291C7BBF1648AE9100403B08 /* InfoPlist.strings */,
+				291C7BC21648AE9100403B08 /* main.m */,
+				291C7BC41648AE9100403B08 /* ArduinoBLE-Prefix.pch */,
+				291C7BC81648AE9100403B08 /* Default.png */,
+				A86DE1021C539BEB00C22B26 /* Default-568h@2x.png */,
+				A86DE1031C539BEB00C22B26 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29FD69E717BA35510015E258 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				2932F6801813C4230049385E /* BLE.h */,
+				2932F6811813C4230049385E /* BLE.m */,
+				2932F6821813C4230049385E /* BLEDefines.h */,
+			);
+			name = BLE;
+			path = ../../../../BLEFramework/BLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		291C7BB11648AE9100403B08 /* ArduinoBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291C7BD61648AE9100403B08 /* Build configuration list for PBXNativeTarget "ArduinoBLE" */;
+			buildPhases = (
+				291C7BAE1648AE9100403B08 /* Sources */,
+				291C7BAF1648AE9100403B08 /* Frameworks */,
+				291C7BB01648AE9100403B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArduinoBLE;
+			productName = BLEDemo;
+			productReference = 291C7BB21648AE9100403B08 /* ArduinoBLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		291C7BA91648AE9100403B08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RedBearLab;
+				TargetAttributes = {
+					291C7BB11648AE9100403B08 = {
+						DevelopmentTeam = 6JJ95TU8P5;
+					};
+				};
+			};
+			buildConfigurationList = 291C7BAC1648AE9100403B08 /* Build configuration list for PBXProject "ArduinoBLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 291C7BA71648AE9100403B08;
+			productRefGroup = 291C7BB31648AE9100403B08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				291C7BB11648AE9100403B08 /* ArduinoBLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291C7BB01648AE9100403B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86DE1051C539BEB00C22B26 /* Default@2x.png in Resources */,
+				291C7BC11648AE9100403B08 /* InfoPlist.strings in Resources */,
+				A86DE1011C53988D00C22B26 /* Images.xcassets in Resources */,
+				291C7BC91648AE9100403B08 /* Default.png in Resources */,
+				A86DE1041C539BEB00C22B26 /* Default-568h@2x.png in Resources */,
+				291C7BD01648AE9100403B08 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		291C7BAE1648AE9100403B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89BA9341C4FB67C00A9B8FA /* NSData+Conversion.m in Sources */,
+				A8DE81141C4F8204001968E4 /* NSData+AES.m in Sources */,
+				291C7BC31648AE9100403B08 /* main.m in Sources */,
+				291C7BC71648AE9100403B08 /* AppDelegate.m in Sources */,
+				2950A9CA164A8459005C150E /* TableViewController.m in Sources */,
+				2932F6831813C4230049385E /* BLE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		291C7BBF1648AE9100403B08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291C7BC01648AE9100403B08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		291C7BCE1648AE9100403B08 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291C7BCF1648AE9100403B08 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		291C7BD41648AE9100403B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		291C7BD51648AE9100403B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		291C7BD71648AE9100403B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleControls/ArduinoBLE-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SimpleControls/include/**";
+				INFOPLIST_FILE = "SimpleControls/ArduinoBLE-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleControls/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.redbear.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = ArduinoBLE;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SimpleControls/lib/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		291C7BD81648AE9100403B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleControls/ArduinoBLE-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SimpleControls/include/**";
+				INFOPLIST_FILE = "SimpleControls/ArduinoBLE-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleControls/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.redbear.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = ArduinoBLE;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SimpleControls/lib/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291C7BAC1648AE9100403B08 /* Build configuration list for PBXProject "ArduinoBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291C7BD41648AE9100403B08 /* Debug */,
+				291C7BD51648AE9100403B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291C7BD61648AE9100403B08 /* Build configuration list for PBXNativeTarget "ArduinoBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291C7BD71648AE9100403B08 /* Debug */,
+				291C7BD81648AE9100403B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 291C7BA91648AE9100403B08 /* Project object */;
+}

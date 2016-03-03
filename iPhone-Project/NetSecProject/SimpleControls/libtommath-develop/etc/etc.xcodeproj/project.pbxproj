@@ -1,0 +1,164 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A80867E71BD10C930083B629 /* 2kprime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = 2kprime.1; sourceTree = "<group>"; };
+		A80867E81BD10C930083B629 /* 2kprime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 2kprime.c; sourceTree = "<group>"; };
+		A80867E91BD10C930083B629 /* drprime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = drprime.c; sourceTree = "<group>"; };
+		A80867EA1BD10C930083B629 /* drprimes.28 */ = {isa = PBXFileReference; lastKnownFileType = text; path = drprimes.28; sourceTree = "<group>"; };
+		A80867EB1BD10C930083B629 /* drprimes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = drprimes.txt; sourceTree = "<group>"; };
+		A80867EC1BD10C930083B629 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		A80867ED1BD10C930083B629 /* makefile.icc */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.icc; sourceTree = "<group>"; };
+		A80867EE1BD10C930083B629 /* makefile.msvc */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.msvc; sourceTree = "<group>"; };
+		A80867EF1BD10C930083B629 /* mersenne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mersenne.c; sourceTree = "<group>"; };
+		A80867F01BD10C930083B629 /* mont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mont.c; sourceTree = "<group>"; };
+		A80867F11BD10C930083B629 /* pprime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pprime.c; sourceTree = "<group>"; };
+		A80867F21BD10C930083B629 /* prime.1024 */ = {isa = PBXFileReference; lastKnownFileType = text; path = prime.1024; sourceTree = "<group>"; };
+		A80867F31BD10C930083B629 /* prime.512 */ = {isa = PBXFileReference; lastKnownFileType = text; path = prime.512; sourceTree = "<group>"; };
+		A80867F41BD10C930083B629 /* timer.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = timer.asm; sourceTree = "<group>"; };
+		A80867F51BD10C930083B629 /* tune.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tune.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A80867E11BD10C930083B629 = {
+			isa = PBXGroup;
+			children = (
+				A80867E71BD10C930083B629 /* 2kprime.1 */,
+				A80867E81BD10C930083B629 /* 2kprime.c */,
+				A80867E91BD10C930083B629 /* drprime.c */,
+				A80867EA1BD10C930083B629 /* drprimes.28 */,
+				A80867EB1BD10C930083B629 /* drprimes.txt */,
+				A80867EC1BD10C930083B629 /* makefile */,
+				A80867ED1BD10C930083B629 /* makefile.icc */,
+				A80867EE1BD10C930083B629 /* makefile.msvc */,
+				A80867EF1BD10C930083B629 /* mersenne.c */,
+				A80867F01BD10C930083B629 /* mont.c */,
+				A80867F11BD10C930083B629 /* pprime.c */,
+				A80867F21BD10C930083B629 /* prime.1024 */,
+				A80867F31BD10C930083B629 /* prime.512 */,
+				A80867F41BD10C930083B629 /* timer.asm */,
+				A80867F51BD10C930083B629 /* tune.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A80867E61BD10C930083B629 /* etc */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A80867F61BD10C930083B629 /* Build configuration list for PBXLegacyTarget "etc" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/Emanuele/Downloads/libtommath-develop/etc";
+			dependencies = (
+			);
+			name = etc;
+			passBuildSettingsInEnvironment = 1;
+			productName = etc;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		A80867E21BD10C930083B629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = A80867E51BD10C930083B629 /* Build configuration list for PBXProject "etc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A80867E11BD10C930083B629;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80867E61BD10C930083B629 /* etc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A80867E31BD10C930083B629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		A80867E41BD10C930083B629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		A80867F71BD10C930083B629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = etc;
+			};
+			name = Debug;
+		};
+		A80867F81BD10C930083B629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = etc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80867E51BD10C930083B629 /* Build configuration list for PBXProject "etc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80867E31BD10C930083B629 /* Debug */,
+				A80867E41BD10C930083B629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80867F61BD10C930083B629 /* Build configuration list for PBXLegacyTarget "etc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80867F71BD10C930083B629 /* Debug */,
+				A80867F81BD10C930083B629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80867E21BD10C930083B629 /* Project object */;
+}
